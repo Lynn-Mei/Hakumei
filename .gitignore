@@ -77,3 +77,6 @@ Hakumei/[Aa]ssets/[Ss]treamingAssets/aa/*
 Hakumei/Logic/obj/Debug/net6.0/_IsIncrementalBuild
 *.BuildWithSkipAnalyzers
 Hakumei/Logic/obj/Debug/net6.0/Logic.csproj.FileListAbsolute.txt
+*.dll
+*.dll
+Hakumei/HMI/bin/Debug/net6.0-windows/HMI.dll
