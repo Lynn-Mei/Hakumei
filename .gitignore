@@ -71,3 +71,9 @@ Hakumei/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 Hakumei/[Aa]ssets/[Ss]treamingAssets/aa.meta
 Hakumei/[Aa]ssets/[Ss]treamingAssets/aa/*
 
+*.cache
+*.cache
+*.dll
+Hakumei/Logic/obj/Debug/net6.0/_IsIncrementalBuild
+*.BuildWithSkipAnalyzers
+Hakumei/Logic/obj/Debug/net6.0/Logic.csproj.FileListAbsolute.txt
