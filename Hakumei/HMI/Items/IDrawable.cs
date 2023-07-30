@@ -1,9 +1,12 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Logic;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
 
 namespace HMI.Items
 {
@@ -11,29 +14,14 @@ namespace HMI.Items
     /// An interface that generalizes the drawing behaviour of a graphic item
     /// <author>Lynn Mei</author>
     /// </summary>
-    public abstract class IDrawable
+    public interface IDrawable
     {
-        private static int x;
-        private static int y;
-
         /// <summary>
         /// Standard Method to draw a graphical item
         /// </summary>
         /// <author>Lynn Mei</author>
         /// <returns>Success of the operation</returns>
-        public bool draw()
-        {
-            bool drawn = false;
-            try
-            {
-                //draw
-                drawn = true;
-            }catch(Exception e)
-            {
-                drawn = false;
-            }
-            return drawn;
-        }
+        public void draw(SpriteBatch spriteBatch);
 
     }
 }
